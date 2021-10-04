@@ -1,6 +1,6 @@
 ﻿FROM bridg/java8
-ENV http_proxy 'http://proxy.fujitsu.co.kr:8080'
-ENV https_proxy 'http://proxy.fujitsu.co.kr:8080'
+ENV http_proxy 'http://proxy.yoursite.co.kr:8080'
+ENV https_proxy 'http://proxy.yoursite.co.kr:8080'
 
 
 RUN export http_proxy=$http_proxy && export https_proxy=$https_proxy
